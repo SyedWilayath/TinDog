@@ -1,0 +1,189 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+/* font-family: 'Ubuntu', sans-serif; */
+
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+/* navigation bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* download button */
+
+.downoad-btn{
+  margin: 5% 3% 5% 0%;
+
+}
+
+/* Title image */
+.title-img {
+  width: 60%;
+  margin-left: 30%;
+  padding-top: 5%;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+}
+
+/* Feaures */
+
+#features{
+padding: 5% 15%;
+text-align: center;
+background-color: #fff;
+}
+
+/* .feature-item{
+  padding: 10% 5%;
+} */
+
+/* svg-images */
+
+.feature-icon{
+  color: #ef8172;
+  width:4rem;
+  padding-bottom: 1rem
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+  width:4rem;
+}
+
+/* class="h3-feature" */
+.h3-feature{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* class="p-feature" */
+.p-feature{
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#pricing{
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pricing-para{
+  color: #8f8f8f;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+
+  #title{
+    text-align: center;
+
+  }
+
+  .title-img {
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg);
+  margin:auto;
+  }
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+#footer{
+  padding: 3% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.foot-para{
+  font-size: 0.5rem;
+}
+
+.footer-icon{
+  width:1rem;
+  padding-bottom: 1rem;
+  margin: 1% 0.5% 1%;
+}
+
+.footer-icon{
+  color: black;
+}
